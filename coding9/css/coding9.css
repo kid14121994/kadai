@@ -1,0 +1,887 @@
+@charset "UTF-8";
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*ヘッダーここから*/
+
+header {
+    width: 100%;
+    height: 130px;
+    background-color: #daac00;
+}
+
+.header-inner {
+    display: flex;
+    width: 85%;
+    height: 130px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo a {
+    width: 235px;
+    height: 56px;
+}
+
+.header-logo:hover {
+    background-color: #ddbd47;
+}
+
+.header-link {
+    display: flex;
+    width: 235px;
+    height: 56px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company-logo {
+    box-sizing: border-box;
+    font-family: myriad pro;
+    color: #ffffff;
+}
+
+.company-logo h1 {
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.company-logo h2 {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.header-nav {
+    margin-right: 70px;
+}
+
+.header-nav ul {
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    width: 500px;
+    justify-content: space-between;
+    font-family: myriad pro;
+}
+
+.header-nav a {
+    color: #ffffff;
+}
+
+.header-nav a:hover {
+    text-decoration: underline;
+}
+
+.form {
+    width: 280px;
+    height: 55px;
+    font-size: 21px;
+    color: #ffffff;
+    background-color: #fcc302;
+    border: none;
+}
+
+.form::placeholder {
+    color: #ffffff;
+}
+
+.button {
+    width: 80px;
+    height: 55px;
+    background-color: #00bec9;
+}
+
+/*ヘッダーここまで*/
+
+/*1ページ目ここから*/
+
+.first-page {
+    width: 100%;
+    background-color: #fcc302;
+}
+
+.first {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.description0 {
+    color: #ffffff;
+    font-family: myriad pro;
+    margin-top: 200px;
+}
+
+.description0 h2 {
+    font-size: 55px;
+    line-height: 80px;
+    padding-bottom: 50px;
+}
+
+.description0 p {
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    line-height: 35px;
+}
+
+.first-tag {
+    display: flex;
+    margin-top: 50px;
+    width: 450px;
+    justify-content: space-between;
+}
+
+.contact-us {
+    display: flex;
+    width: 200px;
+    height: 80px;
+    color: #ffffff;
+    background-color: #00bec9;
+    border-radius: 10px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    font-family: myriad pro;
+}
+
+.our-service {
+    display: flex;
+    width: 200px;
+    height: 74px;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: myriad pro;
+    border: #ffffff solid 3px;
+    border-radius: 10px;
+}
+
+.first-tag a:hover {
+    text-decoration: underline;
+}
+
+.black-dog {
+    margin: 100px 0;
+}
+
+.black-dog img {
+    width: 450px;
+}
+
+/*1ページ目ここまで*/
+
+/*2ページ目ここから*/
+
+.second {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: relative;
+}
+
+.description1 {
+    font-family: myriad pro;
+    margin-top: 200px;
+}
+
+.description1 h2 {
+    font-size: 55px;
+    line-height: 80px;
+    padding-bottom: 50px;
+}
+
+.description1 p {
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    line-height: 35px;
+}
+
+.description1 a {
+    display: flex;
+    width: 200px;
+    height: 80px;
+    color: #ffffff;
+    background-color: #fcc302;
+    border-radius: 10px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    font-family: myriad pro;
+    box-sizing: border-box;
+    margin: 50px 0 220px 0;
+}
+
+.description1 a:hover {
+    text-decoration: underline;
+}
+
+.block1 {
+    position: absolute;
+    width: 300px;
+    height: 240px;
+    background-color: #fcc302;
+    bottom: 198px;
+    right: 280px;
+}
+
+.dogmovie1 {
+    position: absolute;
+    width: 550px;
+    top: 115px;
+    right: 0px;
+}
+
+.transparent1 {
+    position: absolute;
+    width: 550px;
+    height: 521.74px;
+    background-color: #daac00;
+    opacity: 0.5;
+    top: 115px;
+    right: 0px;
+}
+
+.circle1 a {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    top: 340px;
+    right: 220px;
+    background-color: #ffffff;
+}
+
+.regeneration1 a {
+    position: absolute;
+    top: 365px;
+    right: 243px;
+}
+
+.movie1 a:hover {
+    opacity: 0.7;
+}
+
+/*2ページ目ここまで*/
+
+/*3ページ目ここから*/
+
+.third-page {
+    width: 100%;
+    background-color: #fcc302;
+}
+
+.top-description1 {
+    text-align: center;
+    color: #ffffff;
+    font-family: myriad pro;
+}
+
+.top-description1 h2 {
+    font-size: 75px;
+    padding:100px 0 50px 0px;
+}
+
+.top-description1 p {
+    font-size: 35px;
+    letter-spacing: 0.7px;
+    line-height: 70px;
+}
+
+.doctor-blocks1 {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 110px;
+    padding-bottom: 110px;
+}
+
+.one-block1 {
+    color: #ffffff;
+    font-family: myriad pro;
+    text-align: center;
+}
+
+.one-block1 h2 {
+    font-size: 38px;
+    line-height: 80px;
+    padding: 54px 0 27px 0;
+}
+
+.one-block1 p {
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.one-block1 img {
+    width: 380px;
+}
+
+/*3ページ目ここまで*/
+
+/*4ページ目ここから*/
+
+.forth {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: relative;
+}
+
+.description2 {
+    font-family: myriad pro;
+    margin-top: 200px;
+}
+
+.description2 h2 {
+    font-size: 55px;
+    line-height: 80px;
+    padding-bottom: 50px;
+    text-align: end;
+}
+
+.description2 p {
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    line-height: 35px;
+    text-align: end;
+}
+
+.description2 a {
+    display: flex;
+    width: 200px;
+    height: 80px;
+    color: #ffffff;
+    background-color: #fcc302;
+    border-radius: 10px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    font-family: myriad pro;
+    box-sizing: border-box;
+    margin: 50px 0 220px 0;
+    margin-left: auto;
+}
+
+.description2 a:hover {
+    text-decoration: underline;
+}
+
+.block2 {
+    position: absolute;
+    width: 300px;
+    height: 240px;
+    background-color: #fcc302;
+    bottom: 198px;
+    left: 280px;
+}
+
+.dogmovie2 {
+    position: absolute;
+    width: 550px;
+    top: 115px;
+    left: 0px;
+}
+
+.transparent2 {
+    position: absolute;
+    width: 550px;
+    height: 521.74px;
+    background-color: #daac00;
+    opacity: 0.5;
+    top: 115px;
+    left: 0px;
+}
+
+.circle2 a {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    top: 340px;
+    left: 220px;
+    background-color: #ffffff;
+}
+
+.regeneration2 a {
+    position: absolute;
+    top: 365px;
+    left: 243px;
+}
+
+.movie2 a:hover {
+    opacity: 0.7;
+}
+
+/*4ページ目ここまで*/
+
+/*5ページ目ここから*/
+
+.fifth-page {
+    width: 100%;
+    background-color: #fcc302;
+}
+
+.top-description2 {
+    text-align: center;
+    color: #ffffff;
+    font-family: myriad pro;
+}
+
+.top-description2 h2 {
+    font-size: 75px;
+    padding:100px 0 50px 0px;
+}
+
+.top-description2 p {
+    font-size: 35px;
+    letter-spacing: 0.7px;
+    line-height: 70px;
+}
+
+.dog-blocks {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 110px;
+    padding-bottom: 110px;
+}
+
+.one-block2 {
+    color: #ffffff;
+    font-family: myriad pro;
+    text-align: center;
+}
+
+.one-block2 h2 {
+    font-size: 38px;
+    line-height: 80px;
+    padding: 54px 0 27px 0;
+}
+
+.price {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.price p {
+    font-size: 42px;
+    font-weight: bold;
+    padding: 60px 0 45px 0;
+}
+
+.one-block2 img {
+    width: 380px;
+}
+
+.one-block2 a {
+    display: flex;
+    width: 250px;
+    height: 80px;
+    color: #ffffff;
+    background-color: #00bec9;
+    border-radius: 50px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    font-family: myriad pro;
+    margin: 0 auto;
+}
+
+.one-block2 a:hover {
+    text-decoration: underline;
+}
+
+/*5ページ目ここまで*/
+
+/*6ページ目ここから*/
+
+.top-description3 {
+    text-align: center;
+    font-family: myriad pro;
+}
+
+.top-description3 h2 {
+    font-size: 75px;
+    padding:100px 0 50px 0px;
+}
+
+.top-description3 p {
+    font-size: 35px;
+    letter-spacing: 0.7px;
+    line-height: 70px;
+}
+
+.doctor-blocks2 {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 110px;
+    padding-bottom: 110px;
+}
+
+.one-block3 {
+    font-family: myriad pro;
+    text-align: center;
+}
+
+.name {
+    font-size: 38px;
+    line-height: 80px;
+    padding: 54px 0 27px 0;
+}
+
+.sns1 {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.gafa1 a {
+    border-radius: 50%;
+}
+
+.gafa1 a:hover {
+    opacity: 0.7;
+}
+
+.price p {
+    font-size: 42px;
+    font-weight: bold;
+    padding: 60px 0 45px 0;
+}
+
+.doctor {
+    width: 380px;
+}
+
+.gafa1 {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+/*6ページ目ここまで*/
+
+/*7ページ目ここから*/
+
+.seventh-page {
+    background-color: #fcc302;
+}
+
+.seven {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-family: myriad pro;
+}
+
+.hart {
+    width: 400px;
+    text-align: center;
+}
+
+.hart img {
+    width: 130px;
+    padding: 170px 0 65px 0;
+}
+
+.number1 {
+    font-size: 42px;
+    margin: 38px 0 30px 0;
+}
+
+.number2 {
+    font-size: 42px;
+    padding-bottom: 30px;
+}
+
+.number3 {
+    font-size: 42px;
+    padding: 22px 0 30px 0;
+}
+
+.machine {
+    font-size: 38px;
+    font-weight: bold;
+    padding-bottom: 170px;
+}
+
+/*7ページ目ここまで*/
+
+/*8ページ目ここから*/
+
+.top-description4 {
+    text-align: center;
+    font-family: myriad pro;
+}
+
+.top-description4 h2 {
+    font-size: 75px;
+    padding:100px 0 50px 0px;
+}
+
+.top-description4 p {
+    font-size: 35px;
+    letter-spacing: 0.7px;
+    line-height: 50px;
+}
+
+.doctor-blocks3 {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 110px;
+    padding-bottom: 110px;
+}
+
+.one-block4 {
+    font-family: myriad pro;
+}
+
+.border {
+    width: 376px;
+    border-bottom: solid 2px #d6d6d6;
+    border-left: solid 2px #d6d6d6;
+    border-right: solid 2px #d6d6d6;
+}
+
+.small {
+    width: 310px;
+    margin: 0 auto;
+}
+
+.one-block4 h2 {
+    font-size: 25px;
+    line-height: 30px;
+    padding: 40px 0 20px 0;
+}
+
+.date {
+    color: #00bec9;
+    font-size: 17px;
+    padding-bottom: 30px;
+}
+
+.sub-description {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.small a {
+    display: flex;
+    width: 135.63px;
+    color: #00bec9;
+    box-sizing: border-box;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 35px 0;
+}
+
+.small a:hover {
+    text-decoration: underline;
+}
+
+.one-block4 img {
+    width: 380px;
+}
+
+/*8ページ目ここまで*/
+
+/*フッターここから*/
+
+footer {
+    width: 100%;
+    background-color: #343434;
+}
+
+.final {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-between;
+    font-family: myriad pro;
+    color: #ffffff;
+    padding: 180px 0;
+}
+
+.final ul {
+    list-style: none;
+}
+
+.top-menu {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.link-menu {
+    line-height: 60px;
+}
+
+.link-menu a {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.link-menu a:hover {
+    text-decoration:underline;
+}
+
+.title-here {
+    text-align: end;
+}
+
+.title-here h2 {
+    font-size: 40px;
+}
+
+.title-here p {
+    font-size: 25px;
+    padding: 25px 0 55px 0;
+}
+
+.text {
+    width: 500px;
+    height: 100px;
+    font-size: 50px;
+    color: #ffffff;
+    background-color: #fcc302;
+    border: none;
+}
+
+.airplane {
+    margin: 0;
+    width: 150px;
+    height: 100px;
+    background-color: #00bec9;
+}
+
+.sns2 {
+    display: flex;
+    margin-top: 80px;
+    justify-content: flex-end;
+}
+
+.gafa2 {
+    margin-left: 50px;
+}
+
+.gafa2 img {
+    width: 60px;
+}
+
+.gafa2 a:hover {
+    opacity: 0.7;
+}
+
+/*フッターここまで*/
