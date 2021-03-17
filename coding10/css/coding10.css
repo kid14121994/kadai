@@ -1,0 +1,312 @@
+@charset "UTF-8";
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*ヘッダーここから*/
+
+header {
+    background: linear-gradient(100deg, #ffe001 0%, #ffe001 66%, #ebe9ac 66%, #ebe9ac 100%);
+    position: relative;
+    width: 100%;
+    height: 1000px;
+}
+
+.header-inner {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 40px 0;
+}
+
+.header-logo a:hover {
+    opacity: 0.4;
+}
+
+.phone-information {
+    display: flex;
+    width: 250px;
+    height: 67px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phone-text {
+    font-family: Montserrat;
+    font-weight: bold;
+    text-align: end;
+    color: #000;
+    line-height: 27px;
+}
+
+.express {
+    font-size: 17px;
+}
+
+.phone-number {
+    font-size: 30px;
+}
+
+.header-nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    font-family: montserrat;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.header-nav li {
+    padding-left: 50px;
+}
+
+.header-nav a {
+    color: #000;
+}
+
+.header-nav a:hover {
+    text-decoration: underline;
+}
+
+.header-block {
+    padding-top: 80px;
+    width: 591px;
+    text-align: center;
+    font-family: myriad pro;
+    color: #000;
+}
+
+.hungry {
+    font-size: 55px;
+}
+
+.wait {
+    font-size: 90px;
+    padding: 50px 0;
+}
+
+.border {
+    display: flex;
+    width: 591px;
+    justify-content: center;
+}
+
+.let-start {
+    width: 446px;
+    font-family: montserrat;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 50px;
+    border-bottom: solid 3px #d6bd31;
+}
+
+.header-description {
+    display: flex;
+    width: 320px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.header-text {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.addition {
+    font-size: 50px
+}
+
+.header-link {
+    width: 230px;
+    height: 60px;
+    margin: 0 auto;
+    border: #000 3px solid;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: montserrat;
+    margin-bottom: 200px;
+}
+
+.header-link a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 60px;
+    color: #000;
+}
+
+.header-link a:hover {
+    text-decoration: underline;
+}
+
+.carbonara {
+    position: absolute;
+    right: 100px;
+    bottom: 80px;
+    width: 670px;
+    border-radius: 50%;
+}
+
+.leaf0 {
+    position: absolute;
+    top: 200px;
+    left: 70px;
+}
+
+.spaghetti {
+    position: absolute;
+    bottom: -250px;
+    left: 0;
+}
+
+.pasta {
+    position: absolute;
+    top: 200px;
+    left: 700px;
+}
+
+.tomato {
+    position: absolute;
+    bottom: 50px;
+    left: 650px;
+}
+
+.leaf1 {
+    position: absolute;
+    bottom: 80px;
+    right: 60px;
+}
+
+/*ヘッダーここまで*/
+
+/*第1ブロックここから*/
+
+.first-block h2 {
+    padding: 100px 0 40px 0;
+    text-align: center;
+    font-size: 50px;
+    font-family: myriad pro;
+}
+
+.long-description {
+    text-align: center;
+    font-family: montserrat;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+/*第1ブロックここまで*/
+
+/*第2ブロックここから*/
+
+/*第2ブロックここまで*/
+
+/*第3ブロックここから*/
+
+/*第3ブロックここまで*/
+
+/*ヘッダーここから*/
+
+/*ヘッダーここまで*/
