@@ -113,12 +113,11 @@ header {
     align-items: center;
 }
 
-.header-logo a {
+.header-logo img {
     width: 235px;
-    height: 56px;
 }
 
-.header-logo:hover {
+.header-logo a:hover {
     background-color: #ddbd47;
 }
 
@@ -254,7 +253,7 @@ header {
 }
 
 .first-tag a:hover {
-    text-decoration: underline;
+    opacity: 0.4;
 }
 
 .black-dog {
@@ -310,7 +309,7 @@ header {
 }
 
 .description1 a:hover {
-    text-decoration: underline;
+    opacity: 0.7;
 }
 
 .block1 {
@@ -463,7 +462,7 @@ header {
 }
 
 .description2 a:hover {
-    text-decoration: underline;
+    opacity: 0.7;
 }
 
 .block2 {
@@ -551,6 +550,7 @@ header {
     color: #ffffff;
     font-family: myriad pro;
     text-align: center;
+    position: relative;
 }
 
 .one-block2 h2 {
@@ -572,6 +572,15 @@ header {
     padding: 60px 0 45px 0;
 }
 
+.bar {
+    width: 100px;
+    height: 5px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 145px;
+    left: 57px;
+}
+
 .one-block2 img {
     width: 380px;
 }
@@ -591,7 +600,7 @@ header {
 }
 
 .one-block2 a:hover {
-    text-decoration: underline;
+    opacity: 0.7;
 }
 
 /*5ページ目ここまで*/
@@ -764,6 +773,7 @@ header {
     font-size: 25px;
     line-height: 30px;
     padding: 40px 0 20px 0;
+    color: #000;
 }
 
 .date {
@@ -775,9 +785,10 @@ header {
 .sub-description {
     font-size: 17px;
     line-height: 25px;
+    color: #000;
 }
 
-.small a {
+.read {
     display: flex;
     width: 135.63px;
     color: #00bec9;
@@ -787,8 +798,8 @@ header {
     margin: 35px 0;
 }
 
-.small a:hover {
-    text-decoration: underline;
+.one-block4:hover {
+    background-color: #d6d6d6;
 }
 
 .one-block4 img {
