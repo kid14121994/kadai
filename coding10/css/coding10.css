@@ -585,4 +585,69 @@ footer {
     font-family: montserrat;
 }
 
+.footer-description {
+    line-height: 30px;
+}
+
+.location a {
+    display: flex;
+    width: 380px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: montserrat;
+    font-size: 17px;
+    color: #ffffff;
+    box-sizing: border-box;
+    margin: 30px 90px 20px 0;
+}
+
+.location a:hover {
+    opacity: 0.4;
+}
+
+.footer-mail a {
+    display: flex;
+    width: 380px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: montserrat;
+    font-size: 17px;
+    color: #ffffff;
+    box-sizing: border-box;
+    margin-right: 90px;
+    padding-right: 82px;
+}
+
+.footer-mail a:hover {
+    opacity: 0.4;
+}
+
+.final-footer {
+    display: flex;
+    padding: 160px 0 100px 0;
+    justify-content: space-between;
+    font-family: montserrat;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.final-footer ul {
+    display: flex;
+    list-style: none;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.final-footer img {
+    border-radius: 50%;
+}
+
+.final-footer a {
+    border-radius: 50%;
+}
+
+.final-footer a:hover {
+    opacity: 0.5;
+}
+
 /*ヘッダーここまで*/
