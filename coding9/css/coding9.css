@@ -836,7 +836,7 @@ footer {
     justify-content: space-between;
     font-family: popping;
     color: #ffffff;
-    padding: 169px 0 216px 0;
+    padding: 153px 0 216px 0;
 }
 
 .final ul {
@@ -844,13 +844,13 @@ footer {
 }
 
 .top-menu {
-    font-size: 40px;
+    font-size: 37.5px;
     font-weight: 550;
-    padding-bottom: 40px;
+    padding:16px 0 40px 0;
 }
 
 .link-menu {
-    line-height: 60px;
+    line-height: 50px;
 }
 
 .link-menu a {
@@ -867,17 +867,18 @@ footer {
 }
 
 .title-here h2 {
-    font-size: 40px;
+    font-size: 37.5px;
+    font-weight: 550;
 }
 
 .title-here p {
     font-size: 25px;
-    padding: 25px 0 55px 0;
+    padding: 21px 0 50px 0;
 }
 
 .text {
-    width: 500px;
-    height: 100px;
+    width: 420px;
+    height: 80px;
     font-size: 50px;
     color: #ffffff;
     background-color: #fcc302;
@@ -885,24 +886,23 @@ footer {
 }
 
 .airplane {
-    margin: 0;
-    width: 150px;
-    height: 100px;
+    width: 120px;
+    height: 82px;
     background-color: #00bec9;
 }
 
 .sns2 {
     display: flex;
-    margin-top: 80px;
+    margin-top: 50px;
     justify-content: flex-end;
 }
 
 .gafa2 {
-    margin-left: 50px;
+    margin-left: 12px;
 }
 
 .gafa2 img {
-    width: 60px;
+    width: 44px;
 }
 
 .gafa2 a:hover {
