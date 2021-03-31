@@ -100,25 +100,25 @@ input, select {
 
 header {
     width: 100%;
-    height: 130px;
+    height: 124px;
     background-color: #daac00;
 }
 
 .header-inner {
     display: flex;
-    width: 85%;
-    height: 130px;
+    width: 1163px;
+    height: 124px;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
 }
 
 .header-logo img {
-    width: 235px;
+    width: 212px;
 }
 
 .header-logo a:hover {
-    background-color: #ddbd47;
+    opacity: 0.7;
 }
 
 .header-link {
@@ -145,17 +145,13 @@ header {
     font-weight: lighter;
 }
 
-.header-nav {
-    margin-right: 70px;
-}
-
 .header-nav ul {
     display: flex;
     list-style: none;
     font-size: 30px;
-    width: 500px;
+    width: 540px;
     justify-content: space-between;
-    font-family: myriad pro;
+    font-family: poppins;
 }
 
 .header-nav a {
@@ -167,8 +163,8 @@ header {
 }
 
 .form {
-    width: 280px;
-    height: 55px;
+    width: 206px;
+    height: 51px;
     font-size: 21px;
     color: #ffffff;
     background-color: #fcc302;
@@ -180,9 +176,13 @@ header {
 }
 
 .button {
-    width: 80px;
-    height: 55px;
+    width: 71px;
+    height: 51px;
     background-color: #00bec9;
+}
+
+.button:hover {
+    filter: invert();
 }
 
 /*ヘッダーここまで*/
@@ -196,64 +196,67 @@ header {
 
 .first {
     display: flex;
-    width: 85%;
+    width: 1163px;
     justify-content: space-between;
     margin: 0 auto;
 }
 
 .description0 {
     color: #ffffff;
-    font-family: myriad pro;
-    margin-top: 200px;
+    font-family: poppins;
+    margin-top: 193px;
 }
 
 .description0 h2 {
-    font-size: 55px;
+    font-size: 60px;
     line-height: 80px;
     padding-bottom: 50px;
+    font-weight: 600;
+    letter-spacing: 3px;
 }
 
 .description0 p {
     font-size: 25px;
-    letter-spacing: 0.5px;
     line-height: 35px;
+    font-family: myriad pro;
 }
 
 .first-tag {
     display: flex;
     margin-top: 50px;
-    width: 450px;
+    width: 400px;
     justify-content: space-between;
 }
 
 .contact-us {
     display: flex;
-    width: 200px;
-    height: 80px;
+    width: 182px;
+    height: 69px;
     color: #ffffff;
     background-color: #00bec9;
     border-radius: 10px;
-    font-size: 25px;
+    font-size: 21px;
     justify-content: center;
     align-items: center;
-    font-family: myriad pro;
+    font-family: poppins;
 }
 
 .our-service {
     display: flex;
-    width: 200px;
-    height: 74px;
+    width: 182px;
+    height: 69px;
     color: #ffffff;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
-    font-family: myriad pro;
+    font-size: 21px;
+    font-family: poppins;
     border: #ffffff solid 3px;
     border-radius: 10px;
+    background-color: #fcc302;
 }
 
 .first-tag a:hover {
-    opacity: 0.4;
+    filter: invert();
 }
 
 .black-dog {
@@ -261,7 +264,7 @@ header {
 }
 
 .black-dog img {
-    width: 450px;
+    width: 419px;
 }
 
 /*1ページ目ここまで*/
@@ -270,7 +273,7 @@ header {
 
 .second {
     display: flex;
-    width: 85%;
+    width: 1163px;
     justify-content: space-between;
     margin: 0 auto;
     position: relative;
@@ -278,38 +281,40 @@ header {
 
 .description1 {
     font-family: myriad pro;
-    margin-top: 200px;
+    margin-top: 140px;
 }
 
 .description1 h2 {
-    font-size: 55px;
-    line-height: 80px;
-    padding-bottom: 50px;
+    font-size: 50px;
+    line-height: 70px;
+    padding:0 0 50px 0;
+    font-family: poppins;
+    font-weight: 600;
 }
 
 .description1 p {
     font-size: 25px;
-    letter-spacing: 0.5px;
     line-height: 35px;
 }
 
 .description1 a {
     display: flex;
-    width: 200px;
-    height: 80px;
+    width: 182px;
+    height: 69px;
     color: #ffffff;
     background-color: #fcc302;
     border-radius: 10px;
-    font-size: 25px;
+    font-size: 21px;
     justify-content: center;
     align-items: center;
-    font-family: myriad pro;
+    font-family: poppins;
+    font-weight: 500;
     box-sizing: border-box;
-    margin: 50px 0 220px 0;
+    margin: 50px 0 216px 0;
 }
 
 .description1 a:hover {
-    opacity: 0.7;
+    filter: invert();
 }
 
 .block1 {
@@ -317,41 +322,42 @@ header {
     width: 300px;
     height: 240px;
     background-color: #fcc302;
-    bottom: 198px;
-    right: 280px;
+    bottom: 139px;
+    right: 240px;
 }
 
 .dogmovie1 {
     position: absolute;
-    width: 550px;
+    width: 506px;
+    height: 480px;
     top: 115px;
     right: 0px;
 }
 
 .transparent1 {
     position: absolute;
-    width: 550px;
-    height: 521.74px;
+    width: 506px;
+    height: 480px;
     background-color: #daac00;
-    opacity: 0.5;
+    opacity: 0.7;
     top: 115px;
     right: 0px;
 }
 
 .circle1 a {
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 84px;
+    height: 84px;
     border-radius: 50%;
-    top: 340px;
-    right: 220px;
+    top: 320px;
+    right: 210px;
     background-color: #ffffff;
 }
 
 .regeneration1 a {
     position: absolute;
-    top: 365px;
-    right: 243px;
+    top: 348px;
+    right: 236px;
 }
 
 .movie1 a:hover {
@@ -375,22 +381,23 @@ header {
 
 .top-description1 h2 {
     font-size: 75px;
-    padding:100px 0 50px 0px;
+    padding:101px 0 51px 0px;
+    font-family: poppins;
+    letter-spacing: 5px;
 }
 
 .top-description1 p {
-    font-size: 35px;
-    letter-spacing: 0.7px;
-    line-height: 70px;
+    font-size: 33px;
+    line-height: 45px;
 }
 
 .doctor-blocks1 {
     display: flex;
-    width: 85%;
+    width: 1163px;
     margin: 0 auto;
     justify-content: space-between;
-    margin-top: 110px;
-    padding-bottom: 110px;
+    margin-top: 100px;
+    padding-bottom: 101px;
 }
 
 .one-block1 {
@@ -400,9 +407,10 @@ header {
 }
 
 .one-block1 h2 {
-    font-size: 38px;
-    line-height: 80px;
-    padding: 54px 0 27px 0;
+    font-size: 37.5px;
+    font-family: poppins;
+    font-weight: 550;
+    padding: 50px 0 27px 0;
 }
 
 .one-block1 p {
@@ -411,7 +419,7 @@ header {
 }
 
 .one-block1 img {
-    width: 380px;
+    width: 342px;
 }
 
 /*3ページ目ここまで*/
@@ -420,7 +428,7 @@ header {
 
 .forth {
     display: flex;
-    width: 85%;
+    width: 1163px;
     justify-content: space-between;
     margin: 0 auto;
     position: relative;
@@ -428,41 +436,44 @@ header {
 
 .description2 {
     font-family: myriad pro;
-    margin-top: 200px;
+    margin-top: 140px;
 }
 
 .description2 h2 {
-    font-size: 55px;
-    line-height: 80px;
-    padding-bottom: 50px;
+    font-size: 50px;
+    line-height: 65px;
+    padding:40px 0 50px 0;
     text-align: end;
+    font-family: poppins;
+    font-weight: 600;
 }
 
 .description2 p {
-    font-size: 25px;
-    letter-spacing: 0.5px;
-    line-height: 35px;
+    font-size: 28px;
+    letter-spacing: 1px;
+    line-height: 38px;
     text-align: end;
 }
 
 .description2 a {
     display: flex;
-    width: 200px;
-    height: 80px;
+    width: 182px;
+    height: 69px;
     color: #ffffff;
     background-color: #fcc302;
     border-radius: 10px;
-    font-size: 25px;
+    font-size: 21px;
+    font-weight: 600;
     justify-content: center;
     align-items: center;
     font-family: myriad pro;
     box-sizing: border-box;
-    margin: 50px 0 220px 0;
+    margin: 50px 0 216px 0;
     margin-left: auto;
 }
 
 .description2 a:hover {
-    opacity: 0.7;
+    filter: invert();
 }
 
 .block2 {
@@ -470,41 +481,42 @@ header {
     width: 300px;
     height: 240px;
     background-color: #fcc302;
-    bottom: 198px;
-    left: 280px;
+    bottom: 178px;
+    left: 245px;
 }
 
 .dogmovie2 {
     position: absolute;
-    width: 550px;
+    width: 506px;
+    height: 480px;
     top: 115px;
     left: 0px;
 }
 
 .transparent2 {
     position: absolute;
-    width: 550px;
-    height: 521.74px;
+    width: 506px;
+    height: 480px;
     background-color: #daac00;
-    opacity: 0.5;
+    opacity: 0.7;
     top: 115px;
     left: 0px;
 }
 
 .circle2 a {
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 84px;
+    height: 84px;
     border-radius: 50%;
-    top: 340px;
-    left: 220px;
+    top: 310px;
+    left: 210px;
     background-color: #ffffff;
 }
 
 .regeneration2 a {
     position: absolute;
-    top: 365px;
-    left: 243px;
+    top: 338px;
+    left: 234px;
 }
 
 .movie2 a:hover {
@@ -523,32 +535,32 @@ header {
 .top-description2 {
     text-align: center;
     color: #ffffff;
-    font-family: myriad pro;
+    font-family: poppings;
 }
 
 .top-description2 h2 {
     font-size: 75px;
-    padding:100px 0 50px 0px;
+    padding:101px 0 51px 0px;
+    letter-spacing: 5px;
 }
 
 .top-description2 p {
-    font-size: 35px;
-    letter-spacing: 0.7px;
-    line-height: 70px;
+    font-size: 33px;
+    line-height: 45px;
 }
 
 .dog-blocks {
     display: flex;
-    width: 85%;
+    width: 1163px;
     margin: 0 auto;
     justify-content: space-between;
-    margin-top: 110px;
+    margin-top: 100px;
     padding-bottom: 110px;
 }
 
 .one-block2 {
     color: #ffffff;
-    font-family: myriad pro;
+    font-family: poppins;
     text-align: center;
     position: relative;
 }
@@ -561,15 +573,16 @@ header {
 
 .price {
     display: flex;
-    width: 250px;
+    width: 200px;
     justify-content: space-between;
     margin: 0 auto;
 }
 
 .price p {
     font-size: 42px;
-    font-weight: bold;
-    padding: 60px 0 45px 0;
+    padding: 41px 0 30px 0;
+    font-family: poppins;
+    font-weight: 550;
 }
 
 .bar {
@@ -577,30 +590,32 @@ header {
     height: 5px;
     background-color: #ffffff;
     position: absolute;
-    bottom: 145px;
-    left: 57px;
+    bottom: 110px;
+    left: 63px;
 }
 
 .one-block2 img {
-    width: 380px;
+    width: 342px;
+    height: 354px;
 }
 
 .one-block2 a {
     display: flex;
-    width: 250px;
-    height: 80px;
+    width: 199px;
+    height: 60px;
     color: #ffffff;
     background-color: #00bec9;
     border-radius: 50px;
     font-size: 25px;
     justify-content: center;
     align-items: center;
-    font-family: myriad pro;
+    font-family: poppins;
+    font-weight: 550;
     margin: 0 auto;
 }
 
 .one-block2 a:hover {
-    opacity: 0.7;
+    filter: invert();
 }
 
 /*5ページ目ここまで*/
@@ -609,43 +624,46 @@ header {
 
 .top-description3 {
     text-align: center;
-    font-family: myriad pro;
+    font-family: popping;
 }
 
 .top-description3 h2 {
     font-size: 75px;
-    padding:100px 0 50px 0px;
+    padding:145px 0 50px 0px;
 }
 
 .top-description3 p {
-    font-size: 35px;
+    font-size: 33px;
     letter-spacing: 0.7px;
-    line-height: 70px;
+    line-height: 40px;
 }
 
 .doctor-blocks2 {
     display: flex;
-    width: 85%;
+    width: 1163px;
     margin: 0 auto;
     justify-content: space-between;
-    margin-top: 110px;
-    padding-bottom: 110px;
+    margin-top: 100px;
+    padding-bottom: 140px;
 }
 
 .one-block3 {
-    font-family: myriad pro;
+    font-family: popping;
     text-align: center;
 }
 
 .name {
-    font-size: 38px;
-    line-height: 80px;
-    padding: 54px 0 27px 0;
+    font-size: 29px;
+    padding: 40px 0 20px 0;
+}
+
+.position {
+    font-size: 25px;
 }
 
 .sns1 {
     display: flex;
-    width: 250px;
+    width: 185px;
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 30px;
@@ -659,20 +677,15 @@ header {
     opacity: 0.7;
 }
 
-.price p {
-    font-size: 42px;
-    font-weight: bold;
-    padding: 60px 0 45px 0;
-}
-
 .doctor {
-    width: 380px;
+    width: 361px;
+    height: 351px;
 }
 
 .gafa1 {
     border-radius: 50%;
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
 }
 
 /*6ページ目ここまで*/
@@ -685,12 +698,12 @@ header {
 
 .seven {
     display: flex;
-    width: 85%;
+    width: 1163px;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
     color: #ffffff;
-    font-family: myriad pro;
+    font-family: popping;
 }
 
 .hart {
@@ -730,35 +743,35 @@ header {
 
 .top-description4 {
     text-align: center;
-    font-family: myriad pro;
+    font-family: popping;
 }
 
 .top-description4 h2 {
     font-size: 75px;
-    padding:100px 0 50px 0px;
+    padding:101px 0 51px 0px;
 }
 
 .top-description4 p {
-    font-size: 35px;
-    letter-spacing: 0.7px;
-    line-height: 50px;
+    font-size: 33px;
+    line-height: 45px;
+    letter-spacing: 1px;
 }
 
 .doctor-blocks3 {
     display: flex;
-    width: 85%;
+    width: 1163px;
     margin: 0 auto;
     justify-content: space-between;
-    margin-top: 110px;
-    padding-bottom: 110px;
+    margin-top: 100px;
+    padding-bottom: 140px;
 }
 
 .one-block4 {
-    font-family: myriad pro;
+    font-family: popping;
 }
 
 .border {
-    width: 376px;
+    width: 357px;
     border-bottom: solid 2px #d6d6d6;
     border-left: solid 2px #d6d6d6;
     border-right: solid 2px #d6d6d6;
@@ -772,7 +785,7 @@ header {
 .one-block4 h2 {
     font-size: 25px;
     line-height: 30px;
-    padding: 40px 0 20px 0;
+    padding: 32px 0 19px 0;
     color: #000;
 }
 
@@ -795,7 +808,7 @@ header {
     box-sizing: border-box;
     font-size: 21px;
     font-weight: bold;
-    margin: 35px 0;
+    margin: 30px 0 33px 0;
 }
 
 .one-block4:hover {
@@ -803,7 +816,8 @@ header {
 }
 
 .one-block4 img {
-    width: 380px;
+    width: 361px;
+    height: 351px;
 }
 
 /*8ページ目ここまで*/
@@ -817,12 +831,12 @@ footer {
 
 .final {
     display: flex;
-    width: 85%;
+    width: 1163px;
     margin: 0 auto;
     justify-content: space-between;
-    font-family: myriad pro;
+    font-family: popping;
     color: #ffffff;
-    padding: 180px 0;
+    padding: 169px 0 216px 0;
 }
 
 .final ul {
@@ -831,7 +845,7 @@ footer {
 
 .top-menu {
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 550;
     padding-bottom: 40px;
 }
 
