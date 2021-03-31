@@ -879,7 +879,7 @@ footer {
 .text {
     width: 420px;
     height: 80px;
-    font-size: 50px;
+    font-size: 40px;
     color: #ffffff;
     background-color: #fcc302;
     border: none;
@@ -889,6 +889,10 @@ footer {
     width: 120px;
     height: 82px;
     background-color: #00bec9;
+}
+
+.airplane:hover {
+    filter: invert();
 }
 
 .sns2 {
