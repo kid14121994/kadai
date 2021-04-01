@@ -99,21 +99,26 @@ input, select {
 /*ヘッダーここから*/
 
 header {
-    background: linear-gradient(100deg, #ffe001 0%, #ffe001 66%, #ebe9ac 66%, #ebe9ac 100%);
+    background: linear-gradient(100deg, #ffe001 0%, #ffe001 65%, #ebe9ac 65%, #ebe9ac 100%);
     position: relative;
     width: 100%;
     height: 1000px;
 }
 
 .header-inner {
-    width: 90%;
+    width: 1340px;
     margin: 0 auto;
 }
 
 .header-logo {
     display: flex;
     justify-content: space-between;
-    padding: 50px 0 40px 0;
+    padding: 42px 0 26px 0;
+}
+
+.food4you {
+    width: 251px;
+    height: 63px;
 }
 
 .header-logo a:hover {
@@ -122,10 +127,16 @@ header {
 
 .phone-information {
     display: flex;
-    width: 250px;
-    height: 67px;
+    width: 240px;
+    height: 53px;
     justify-content: space-between;
     align-items: center;
+    padding: 14px 0 6px 0;
+}
+
+.phone-information img {
+    width: 29px;
+    height: 53px;
 }
 
 .phone-text {
@@ -141,21 +152,24 @@ header {
 }
 
 .phone-number {
-    font-size: 30px;
+    font-size: 29.2px;
+}
+
+.header-nav {
+    display: flex;
+    width: 582.26px;
+    margin-left: auto;
 }
 
 .header-nav ul {
     display: flex;
+    width: 582.26px;
+    justify-content: space-between;
     list-style: none;
-    justify-content: flex-end;
     font-family: montserrat;
     font-size: 17px;
     font-weight: bold;
     letter-spacing: 3px;
-}
-
-.header-nav li {
-    padding-left: 50px;
 }
 
 .header-nav a {
@@ -167,45 +181,42 @@ header {
 }
 
 .header-block {
-    padding-top: 80px;
-    width: 591px;
-    text-align: center;
+    padding-top: 88px;
     font-family: myriad pro;
     color: #000;
 }
 
 .hungry {
     font-size: 55px;
+    padding-left: 100px;
+    letter-spacing: 2px;
 }
 
 .wait {
-    font-size: 90px;
-    padding: 50px 0;
-}
-
-.border {
-    display: flex;
-    width: 591px;
-    justify-content: center;
+    font-size: 86px;
+    padding: 41px 0 38px 0;
+    letter-spacing: 0;
 }
 
 .let-start {
-    width: 446px;
+    width: 550px;
     font-family: montserrat;
     font-size: 25px;
     font-weight: bold;
-    padding-bottom: 50px;
+    padding-bottom: 42px;
     border-bottom: solid 3px #d6bd31;
+    margin-left: 40px;
+    letter-spacing: 3.86px;
 }
 
 .header-description {
     display: flex;
-    width: 320px;
+    width: 315px;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin: 42px 0 41px 150px;
+    margin-top: 42px;
+    margin-bottom: 41px;
 }
 
 .header-text {
@@ -218,34 +229,34 @@ header {
 }
 
 .header-link {
-    width: 230px;
-    height: 60px;
-    margin: 0 auto;
-    border: #000 3px solid;
+    width: 227px;
+    height: 58px;
     font-size: 21px;
     font-weight: bold;
     font-family: montserrat;
-    margin-bottom: 200px;
+    margin:0 0 158px 175px;
 }
 
 .header-link a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 230px;
-    height: 60px;
+    width: 227px;
+    height: 58px;
     color: #000;
+    border: #000 3px solid;
+    background-color: #ffe001;
 }
 
 .header-link a:hover {
-    opacity: 0.4;
+    filter: invert();
 }
 
 .carbonara {
     position: absolute;
+    width: 650px;
     right: 100px;
-    bottom: 80px;
-    width: 670px;
+    bottom: 100px;
     border-radius: 50%;
 }
 
@@ -269,7 +280,7 @@ header {
 
 .tomato {
     position: absolute;
-    bottom: 50px;
+    bottom: 70px;
     left: 650px;
 }
 
@@ -303,17 +314,17 @@ header {
 
 .green-back {
     width: 100%;
-    height: 140px;
-    background-color: #e8e6a9;
     position: absolute;
+    height: 139px;
     top: 400px;
     left: 0;
     z-index: 0;
+    background-color: #e8e6a9;
 }
 
 .first-main {
     display: flex;
-    width: 90%;
+    width: 1340px;
     margin: 0 auto;
     text-align: center;
     margin-top: 40px;
@@ -358,7 +369,7 @@ header {
 }
 
 .first-link a:hover {
-    opacity: 0.5;
+    filter: invert();
 }
 
 /*第1ブロックここまで*/
@@ -370,7 +381,6 @@ header {
     font-size: 25px;
     font-family: montserrat;
     font-weight: bold;
-    margin-top: 850px;
 }
 
 .second-block h2 {
@@ -424,15 +434,24 @@ header {
 
 .second-link {
     display: flex;
-    width: 90%;
+    width: 1340px;
     height: 457.28px;
     margin: 0 auto;
     justify-content: space-between;
     margin-top: 120px;
     margin-bottom: 100px;
-    color: #ffffff;
     font-weight: bold;
     font-family: montserrat;
+}
+
+.second-main a {
+    display: block;
+    width: 650px;
+    height: 457.28px;
+}
+
+.second-main a:hover {
+    opacity: 0.7;
 }
 
 .second-main {
@@ -451,6 +470,16 @@ header {
     background-size: cover;
 }
 
+.food5 a {
+    display: block;
+    width: 650px;
+    height: 209.74px;
+}
+
+.food5 a:hover {
+    opacity: 0.7;
+}
+
 .food6 {
     width: 650px;
     height: 209.74px;
@@ -460,23 +489,37 @@ header {
     margin-top: 37.8px;
 }
 
-.main-big {
+.food6 a {
+    display: block;
+    width: 650px;
+    height: 209.74px;
+}
+
+.food6 a:hover {
+    opacity: 0.7;
+}
+
+.main-big  {
     padding: 50px 0 20px 50px;
     font-size: 28px;
+    color: #ffffff;
 }
 
-.main-big1 {
+.main-big1  {
     padding: 30px 0 10px 30px;
+    color: #ffffff;
 }
 
-.main-small {
+.main-small  {
     font-size: 45px;
     margin-left: 50px;
+    color: #ffffff;
 }
 
 .main-small1 {
     font-size: 45px;
     margin-left: 30px;
+    color: #ffffff;
 }
 
 /*第2ブロックここまで*/
@@ -552,7 +595,7 @@ header {
 }
 
 .third-link a:hover {
-    opacity: 0.7;
+    filter: invert();
 }
 
 /*第3ブロックここまで*/
@@ -568,7 +611,7 @@ footer {
 }
 
 .final {
-    width: 90%;
+    width: 1340px;
     margin: 0 auto;
     padding-top: 66px;
 }
