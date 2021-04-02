@@ -216,6 +216,14 @@ input, select {
     height: 400px;
 }
 
+.ff {
+    display: none;
+}
+
+.text0 {
+    display: none;
+}
+
 .description1 {
     width: 684px;
     height: 400px;
@@ -376,6 +384,10 @@ input, select {
 
 .footer-description li {
     line-height: 30px;
+}
+
+.footer-description1 {
+    display: none;
 }
 
 .footer-nav ul {
