@@ -1,0 +1,400 @@
+@charset "UTF-8";
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+header {
+    background-color: #fff5fe;
+}
+
+.header-logo {
+    display: flex;
+    width: 1141px;
+    height: 100px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 30px;
+}
+
+.logo a {
+    width: 231.47px;
+    height: 77.04px;
+    color: #48bac2;
+    font-size: 40px;
+    font-family: Noto Sans Cjk Jp;
+}
+
+.header-menu {
+    font-size: 0;
+}
+
+.header-menu ul {
+    list-style: none;
+    margin-top: 13px;
+}
+
+.header-menu li {
+    display: inline-block;
+    align-items: center;
+}
+
+.header-menu a {
+    color: #48bac2;
+    font-family: noto sans cjk jp;
+    font-size: 18px;
+}
+
+.menu0 {
+    padding-right: 43px;
+    margin-top: 28px;
+}
+
+.mail a {
+    display: inline-block;
+    width: 96px;
+    padding: 15px 20px;
+    background-image: url(../images/mail.png);
+    background-repeat: no-repeat;
+}
+
+.lorem-ipsum {
+    background-color: #c2c2c2;
+    width: 100%;
+    height: 668px;
+}
+
+.first-main {
+    color: #fff5fe;
+}
+
+.first-main h2 {
+    font-family: noto sans cjk jp;
+    font-weight: normal;
+    font-size: 44px;
+    text-align: center;
+    padding-top: 230px;
+    padding-bottom: 24px;
+}
+
+.first-main p {
+    font-size: 22px;
+    font-family: noto sans cjk jp;
+    text-align: center;
+    padding-bottom: 7px;
+}
+
+.greeting {
+    background-image: url(../images/gradation.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.second-main h2 {
+    color: #48bac2;
+    font-family: noto sans cjk jp;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 46px;
+}
+
+.second-main p {
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: noto sans cjk jp;
+    text-align: center;
+    padding-bottom: 18px;
+    color: #010c21;
+}
+
+.menu {
+    background-color: #fcddf9;
+    width: 100%;
+    height: 1200px;
+}
+
+.main-menu {
+    width: 1141px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.one-menu {
+    margin-top: 99px;
+}
+
+.block {
+    width: 350px;
+    height: 250px;
+    background-color: #c2c2c2;
+    margin-bottom: 20px;
+}
+
+.one-menu p {
+    font-size: 16px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: noto sans cjk jp;
+}
+
+.one-menu a {
+    display: inline-block;
+    width: 226px;
+    height: 60px;
+    margin-left: 60px;
+    margin-top: 13px;
+}
+
+.information {
+    width: 100%;
+    display: flex;
+    height: 520px;
+}
+
+.left-side {
+    width: 50%;
+    height: 520px;
+    background-color: #fff5fe;
+}
+
+.store-information {
+    width: 500px;
+    margin-left: 168px;
+    margin-top: 80px;
+}
+
+.store-information h2 {
+    color: #48bac2;
+    font-family: noto sans cjk jp;
+    font-size: 28px;
+}
+
+.sub-information {
+    display: flex;
+    margin-top: 30px;
+}
+
+.left-information {
+    width: 160px;
+    font-size: 18px;
+    font-family: noto sans cjk jp;
+    color: #010c21;
+    border-right: solid 3px #d1c9cf;
+}
+
+.left-information ul {
+    list-style: none;
+}
+
+.while0 {
+    padding-top: 20px;
+    padding-bottom: 41px;
+}
+
+.while1 {
+    padding-bottom: 41px;
+}
+
+.while2 {
+    padding-bottom: 20px;
+}
+
+.right-information {
+    width: 400px;
+    font-size: 18px;
+    font-family: noto sans cjk jp;
+    color: #5a5a5a;
+}
+
+.right-information ul {
+    list-style: none;
+}
+
+.right-information li {
+    padding-left: 27px;
+}
+
+.right-side {
+    width: 50%;
+    height: 520px;
+    background-color: #c2c2c2;
+}
+
+footer {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/graduation2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer0 {
+    width: 450px;
+    margin: 0 auto;
+}
+
+.footer-information h2 {
+    padding-top: 70px;
+    text-align: center;
+    font-family: noto sans cjk jp;
+    font-size: 40px;
+    color: #fff5fe;
+    padding-bottom: 32px;
+}
+
+.footer-information ul {
+    list-style: none;
+    text-align: center;
+    color: #fff5fe;
+    font-family: noto sans cjk jp;
+    font-size: 18px;
+}
+
+.footer-information li {
+    padding-bottom: 14px;
+}
+
+.access a {
+    display: inline-block;
+    width: 226px;
+    height: 60px;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.menu-nav {
+    font-size: 0;
+    width: 420px;
+    margin-left: 20px;
+}
+
+.menu-nav ul {
+    width: 420px;
+    list-style: none;
+    margin-top: 60px;
+    font-family: noto sans cjk jp;
+    font-size: 14px;
+}
+
+.menu-nav li {
+    display: inline-block;
+}
+
+.menu-nav a {
+    display: inline-block;
+    width: 64px;
+    text-align: center;
+    color: #fff5fe;
+}
+
+.border {
+    border-right: solid 1px #fff5fe;
+}
+
+.footer0 p {
+    padding-top: 44px;
+    text-align: center;
+    color: #fff5fe;
+    font-family: noto sans cjk jp;
+    font-size: 12px;
+
+}
