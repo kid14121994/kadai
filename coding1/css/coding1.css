@@ -157,6 +157,10 @@ body {
     width: 100%;
 }
 
+.pc {
+    display: none;
+}
+
 .main-description {
     position: absolute;
     color: #ffffff;

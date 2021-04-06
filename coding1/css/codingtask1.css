@@ -156,8 +156,12 @@ input, select {
     position: relative;
 }
 
-.mv img {
+.pc {
     width: 100%;
+}
+
+.phone {
+    display: none;
 }
 
 .main-description {
