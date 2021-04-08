@@ -103,3 +103,319 @@ header {
 html {
     font-size: 100%;
 }
+
+body {
+    font-family: Noto Sans CJK JP;
+}
+
+/*ヘッダーここから*/
+
+header {
+    background-color: #fff5fe;
+}
+
+.header-logo {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 7vw 25px;
+}
+
+.logo {
+    font-size: 8vw;
+    line-height: 7vw;
+}
+
+.logo a {
+    color: #48bac2;
+}
+
+.logo a:hover {
+    opacity: 0.7;
+}
+
+.header-menu {
+    display: none;
+}
+
+.link {
+    box-sizing: border-box;
+    width: 7vw;
+    height: 7vw;
+}
+
+.link a {
+    box-sizing: border-box;
+    width: 7vw;
+    height: 7vw;
+}
+
+.line0 {
+    width: 7vw;
+    height: 1.5vw;
+    background-color: #48bac2;
+}
+
+.line {
+    width: 7vw;
+    height: 1.5vw;
+    background-color: #48bac2;
+    margin-top: 1.25vw;
+}
+
+.lorem-ipsum {
+    box-sizing: border-box;
+    padding: 8vw 25px;
+    background-color: #c2c2c2;
+    width: 100%;
+    text-align: center;
+}
+
+.first-main {
+    color: #fff5fe;
+}
+
+.first-main h2 {
+    font-size: 5.5vw;
+    font-weight: normal;
+    padding-bottom: 3vw;
+}
+
+.fmpc {
+    display: none;
+}
+
+.fmph {
+    font-size: 3vw;
+    letter-spacing: 0.2vw;
+    line-height: 4vw;
+}
+
+.greeting {
+    background-image: url(../images/gradation.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 8vw 25px;
+}
+
+.second-main h2 {
+    color: #48bac2;
+    font-size: 5.5vw;
+    font-weight: normal;
+    padding-bottom: 3vw;
+}
+
+.smpc {
+    display: none;
+}
+
+.smph {
+    font-size: 3vw;
+    letter-spacing: 0.2vw;
+    line-height: 4vw;
+}
+
+.menu {
+    background-color: #fcddf9;
+    width: 100%;
+}
+
+.main-menu {
+    width: 100%;
+}
+
+.one-menu {
+    padding: 10vw 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.block {
+    width: 70vw;
+    height: 50vw;
+    background-color: #c2c2c2;
+    margin: 0 auto;
+    margin-bottom: 6vw;
+}
+
+.one-menu p {
+    font-size: 3vw;
+    line-height: 5vw;
+    text-align: center;
+}
+
+.one-menu a {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 70vw;
+    height: 20vw;
+    margin-top: 5vw;
+}
+
+.one-menu img {
+    width: 70vw;
+    height: 20vw;
+}
+
+.information {
+    background-color: #c2c2c2;
+}
+
+.left-side {
+    display: none;
+}
+
+.right-side {
+    display: none;
+}
+
+.phone-information {
+    padding: 8vw 0;
+}
+
+.phone-information p {
+    color: #48bac2;
+    text-align: center;
+    font-size: 5vw;
+    padding-bottom: 7vw;
+}
+
+.border00 {
+    width: 100%;
+    border-top: #48bac2 solid 2px;
+}
+
+.border1 {
+    width: 100%;
+    border-top: #48bac2 solid 2px;
+    border-bottom: #48bac2 solid 2px;
+}
+
+.address {
+    display: flex;
+    width: 100%;
+    height: 8vw;
+    background-color: #fff5fe;
+    box-sizing: border-box;
+    padding:0 25px;
+}
+
+.address a {
+    display: flex;
+    width: 100%;
+    height: 8vw;
+    font-size: 4vw;
+    align-items: center;
+    color: #010c21;
+}
+
+.three-border {
+    box-sizing: border-box;
+    width: 7vw;
+    height: 7vw;
+}
+
+.a-border0 {
+    width: 7vw;
+    height: 1.5vw;
+    background-color: #48bac2;
+    margin-top: 0.2vw;
+}
+
+.a-border {
+    width: 7vw;
+    height: 1.5vw;
+    background-color: #48bac2;
+    margin-top: 1.5vw;
+}
+
+footer {
+    width: 100%;
+    background-image: url(../images/graduation2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer0 {
+    padding: 10vw 0;
+}
+
+.footer-information h2 {
+    text-align: center;
+    font-family: noto sans cjk jp;
+    font-size: 8vw;
+    color: #fff5fe;
+    padding-bottom: 6vw;
+}
+
+.footer-information ul {
+    list-style: none;
+    text-align: center;
+    color: #fff5fe;
+    font-family: noto sans cjk jp;
+    font-size: 3vw;
+    padding-bottom: 5vw;
+}
+
+.footer-information li {
+    padding-bottom: 3vw;
+}
+
+.access {
+    width: 50vw;
+    height: 13vw;
+    margin: 0 auto;
+}
+
+.access a {
+    width: 50vw;
+    height: 13vw;
+}
+
+.access img {
+    width: 50vw;
+    height: 13vw;
+}
+
+.menu-nav {
+    font-size: 0;
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.menu-nav ul {
+    display: flex;
+    width: 60vw;
+    list-style: none;
+    margin: 8vw auto;
+    font-family: noto sans cjk jp;
+    font-size: 2vw;
+    justify-content: space-between;
+}
+
+.menu-nav li {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-nav a {
+    display: flex;
+    width: 10vw;
+    color: #fff5fe;
+    justify-content: center;
+}
+
+.border {
+    border-right: solid 1px #fff5fe;
+}
+
+.footer0 p {
+    text-align: center;
+    color: #fff5fe;
+    font-family: noto sans cjk jp;
+    font-size: 2vw;
+}

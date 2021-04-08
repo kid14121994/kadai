@@ -172,11 +172,15 @@ header {
     padding-bottom: 24px;
 }
 
-.first-main p {
+.fmpc {
     font-size: 22px;
     font-family: noto sans cjk jp;
     text-align: center;
     padding-bottom: 7px;
+}
+
+.fmph {
+    display: none;
 }
 
 .greeting {
@@ -196,13 +200,17 @@ header {
     padding-bottom: 46px;
 }
 
-.second-main p {
+.smpc {
     font-size: 18px;
     font-weight: lighter;
     font-family: noto sans cjk jp;
     text-align: center;
     padding-bottom: 18px;
     color: #010c21;
+}
+
+.smph {
+    display: none;
 }
 
 .menu {
@@ -317,6 +325,10 @@ header {
     width: 50%;
     height: 520px;
     background-color: #c2c2c2;
+}
+
+.phone-information {
+    display: none;
 }
 
 footer {
