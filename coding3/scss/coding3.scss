@@ -1,0 +1,286 @@
+@charset "UTF-8";
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: Noto Sans CJK JP;
+}
+
+/*ヘッダーここから*/
+
+.header-logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+        margin-left: 4vw;
+        h1 {
+            a {
+                color: #029ae2;
+                font-size: 2vw;
+                &:hover {
+                    opacity: 0.7;
+                }
+                    span {
+                        color: #30d0ed;
+                    }
+            }
+        }
+    }
+}
+
+.header-menu {
+            ul {
+                display: flex;
+                list-style: none;
+                width: 50vw;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 1vw;
+                font-family: 小塚ゴシック Pr6N;
+                li {
+                    &.menu0
+                    a {
+                        color: #000;
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                    &.mail {
+                        a {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: #ffffff;
+                            width: 12vw;
+                            height: 5vw;
+                            background-color: #30d0ed;
+                            &:hover {
+                                opacity: 0.7;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+.top-page {
+    width: 100%;
+    background-image: url(../images/backgrand.png);
+    text-align: center;
+    padding: 10vw 0 14vw 0;
+    color: #ffffff;
+    font-family: Cormorant Garamond;
+    h2 {
+        font-size: 9vw;
+        font-weight: normal;
+        line-height: 7.4vw;
+    }
+    & p {
+        font-size: 1.5vw;
+        padding-top: 3.2vw;
+        letter-spacing: 0.2vw;
+    }
+}
+.news {
+    background-color: #edfcff;
+    padding: 4vw 0;
+    .main-news {
+        width: 75vw;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .news-logo {
+            h3 {
+                font-family: open sans;
+                color: #029ae2;
+                font-size: 2.5vw;
+                padding-bottom: 0.5vw;
+            }
+            a {
+                display: flex;
+                position: relative;
+                width: 5vw;
+                color: #000;
+                font-size: 0.82vw;
+                &:hover {
+                    text-decoration: underline;
+                }
+                &::after {
+                    position: absolute;
+                    content: "";
+                    right: 0;
+                    top: 0.3vw;
+                    width: 0.34vw;
+                    height: 0.34vw;
+                    border-top: 0.15vw solid #000;
+                    border-right: 0.15vw solid #000;
+                    -webkit-transform: rotate(45deg);
+                    transform: rotate(45deg);
+                }
+            }
+        }
+    }
+    .news-information {
+        ul {
+            list-style: none;
+            li {
+                display: flex;
+                width: 60vw;
+                height: 2.5vw;
+                align-items: center;
+                font-size: 1vw;
+                border-bottom: solid 1px #30d0ed;
+                span {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 0.9vw;
+                    margin: 0 4vw;
+                    width: 5vw;
+                    height: 1.5vw;
+                    background-color: #029ae2;
+                    color: #ffffff;
+                }
+                a {
+                    display: flex;
+                    font-size: 0.9vw;
+                    color: #000;
+                    height: 2.5vw;
+                    align-items: center;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+.service {
+    text-align: center;
+    padding-top: 7vw;
+    .service-description {
+        h3 {
+            font-family: open sans;
+                color: #029ae2;
+                font-size: 2.5vw;
+                padding-bottom: 0.3vw;
+        }
+        p {
+            color: #029ae2;
+            font-size: 1vw;
+            padding-bottom: 1.5vw;
+        }
+        .box {
+            display: flex;
+            width: 75vw;
+            margin: 0 auto;
+            height: 10vw;
+            justify-content: space-between;
+            .block {
+                width: 23vw;
+                background-color: #e8e8e8;
+                height: 10vw;
+            }
+        }
+    }
+}
