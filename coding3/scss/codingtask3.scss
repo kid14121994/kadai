@@ -105,3 +105,53 @@ body {
 }
 
 /*ヘッダーここから*/
+.header-logo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+        width: 90vw;
+        margin: 0 auto;
+        h1 {
+            a {
+                color: #029ae2;
+                font-size: 2vw;
+                &:hover {
+                    opacity: 0.7;
+                }
+                    span {
+                        color: #30d0ed;
+                    }
+            }
+        }
+    }
+    .header-menu {
+        display: none;
+    }
+    .link {
+        box-sizing: border-box;
+        width: 7vw;
+        height: 7vw;
+        a {
+            box-sizing: border-box;
+            width: 7vw;
+            height: 7vw;
+            &:hover {
+                opacity: 0.7;
+            }
+            .line0 {
+                width: 7vw;
+                height: 1.5vw;
+                background-color: #48bac2;
+            }
+            .line {
+                width: 7vw;
+                height: 1.5vw;
+                background-color: #48bac2;
+                margin-top: 1.25vw;
+            }
+        }
+    }
+}
+

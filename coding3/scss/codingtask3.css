@@ -104,4 +104,69 @@ body {
 }
 
 /*ヘッダーここから*/
+.header-logo {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-logo .logo {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.header-logo .logo h1 a {
+  color: #029ae2;
+  font-size: 2vw;
+}
+
+.header-logo .logo h1 a:hover {
+  opacity: 0.7;
+}
+
+.header-logo .logo h1 a span {
+  color: #30d0ed;
+}
+
+.header-logo .header-menu {
+  display: none;
+}
+
+.header-logo .link {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 7vw;
+  height: 7vw;
+}
+
+.header-logo .link a {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 7vw;
+  height: 7vw;
+}
+
+.header-logo .link a:hover {
+  opacity: 0.7;
+}
+
+.header-logo .link a .line0 {
+  width: 7vw;
+  height: 1.5vw;
+  background-color: #48bac2;
+}
+
+.header-logo .link a .line {
+  width: 7vw;
+  height: 1.5vw;
+  background-color: #48bac2;
+  margin-top: 1.25vw;
+}
 /*# sourceMappingURL=codingtask3.css.map */

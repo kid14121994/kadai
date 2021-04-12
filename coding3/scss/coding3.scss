@@ -126,9 +126,7 @@ body {
             }
         }
     }
-}
-
-.header-menu {
+    .header-menu {
             ul {
                 display: flex;
                 list-style: none;
@@ -162,6 +160,10 @@ body {
                 }
             }
         }
+    .link {
+        display: none;
+    }
+}
 
 .top-page {
     width: 100%;
