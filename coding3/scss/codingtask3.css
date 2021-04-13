@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*ヘッダーここから*/
-.header-logo {
+.header-inner {
   width: 85vw;
   margin: 2vw auto;
   display: -webkit-box;
@@ -14,48 +14,48 @@
           align-items: center;
 }
 
-.header-logo .logo h1 a {
+.header-inner .logo h1 a {
   color: #029ae2;
   font-size: 7vw;
 }
 
-.header-logo .logo h1 a:hover {
+.header-inner .logo h1 a:hover {
   opacity: 0.7;
 }
 
-.header-logo .logo h1 a span {
+.header-inner .logo h1 a span {
   color: #30d0ed;
 }
 
-.header-logo .header-menu {
+.header-inner .header-menu {
   display: none;
 }
 
-.header-logo .link {
+.header-inner .link {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 7vw;
   height: 7vw;
 }
 
-.header-logo .link a {
+.header-inner .link a {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 7vw;
   height: 7vw;
 }
 
-.header-logo .link a:hover {
+.header-inner .link a:hover {
   opacity: 0.7;
 }
 
-.header-logo .link a .line0 {
+.header-inner .link a .line0 {
   width: 7vw;
   height: 1.5vw;
   background-color: #48bac2;
 }
 
-.header-logo .link a .line {
+.header-inner .link a .line {
   width: 7vw;
   height: 1.5vw;
   background-color: #48bac2;
