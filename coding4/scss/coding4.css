@@ -49,4 +49,66 @@
   background-image: url(../images/circle@2x.png);
   background-size: cover;
 }
+
+.main-block .top-main h2 {
+  font-family: Myriad Pro;
+  color: #fff;
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+  font-size: 10vw;
+  font-weight: normal;
+  padding: 10vw 0 0 20.5vw;
+}
+
+.main-block .top-main h3 {
+  font-family: FOT-マティス ProN;
+  font-weight: normal;
+  font-size: 2vw;
+  padding-left: 33vw;
+}
+
+.main-block .top-main p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 12.9vw;
+  font-family: Futura PT;
+  padding: 4vw 0 1vw 0;
+  margin-left: 32.5vw;
+  font-size: 1.5vw;
+  font-weight: lighter;
+  border-bottom: solid 1px;
+}
+
+.main-block .circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 8vw;
+  margin: 0 auto;
+  padding: 2vw 0 5vw 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-block .circle .black {
+  width: 0.7vw;
+  height: 0.7vw;
+  border-radius: 50%;
+  background-color: #000000;
+}
+
+.main-block .circle .white {
+  width: 0.7vw;
+  height: 0.7vw;
+  border-radius: 50%;
+  background-color: #dedede;
+}
+
+.main-block .sub-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=coding4.css.map */
