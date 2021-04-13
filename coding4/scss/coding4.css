@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/*ヘッダーここから*/
+.header-inner {
+  width: 70%;
+  margin: 0 auto;
+  padding: 2vw 0;
+}
+
+.header-inner .nav-block ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header-inner .nav-block ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.1vw;
+  font-weight: 100;
+}
+
+.header-inner .nav-block ul li a {
+  color: #000;
+}
+
+.header-inner .nav-block ul li a:hover {
+  text-decoration: underline;
+}
+
+.header-inner .nav-block ul .nav-header {
+  font-size: 2.5vw;
+  font-weight: bold;
+  letter-spacing: 0.2vw;
+  padding: 0 1.5vw;
+}
+
+.main-block .top-main {
+  width: 100%;
+  height: 40vw;
+  background-image: url(../images/circle@2x.png);
+  background-size: cover;
+}
+/*# sourceMappingURL=coding4.css.map */
