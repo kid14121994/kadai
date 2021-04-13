@@ -143,25 +143,51 @@ header {
     box-sizing: border-box;
     width: 7vw;
     height: 7vw;
+    position: relative;
 }
 
 .link a {
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
     width: 7vw;
     height: 7vw;
-}
-
-.line0 {
-    width: 7vw;
-    height: 1.5vw;
-    background-color: #48bac2;
 }
 
 .line {
     width: 7vw;
     height: 1.5vw;
     background-color: #48bac2;
-    margin-top: 1.25vw;
+}
+
+.line::after {
+    position: absolute;
+    content: "";
+    width: 7vw;
+    height: 1.5vw;
+    background-color: #48bac2;
+    transform: translateY(-3vw);
+}
+
+.line::before {
+    position: absolute;
+    content: "";
+    width: 7vw;
+    height: 1.5vw;
+    background-color: #48bac2;
+    transform:translateY(3vw);
+}
+
+.rotate {
+    transform: rotate(45deg);
+}
+
+.rotate::after {
+    transform: rotate(90deg)translateY(0);
+}
+
+.rotate::before {
+    transform: rotate(90deg)translateY(0);
 }
 
 .lorem-ipsum {
