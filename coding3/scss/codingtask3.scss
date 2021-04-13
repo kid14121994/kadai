@@ -1,122 +1,15 @@
-@charset "UTF-8";
-
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-}
-
-body {
-    line-height:1;
-}
-
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
-    display:block;
-}
-
-nav ul {
-    list-style:none;
-}
-
-blockquote, q {
-    quotes:none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content:'';
-    content:none;
-}
-
-a {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
-    text-decoration: none;
-}
-
-/* change colours to suit your needs */
-ins {
-    background-color:#ff9;
-    color:#000;
-    text-decoration:none;
-}
-
-/* change colours to suit your needs */
-mark {
-    background-color:#ff9;
-    color:#000;
-    font-style:italic;
-    font-weight:bold;
-}
-
-del {
-    text-decoration: line-through;
-}
-
-abbr[title], dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
-}
-
-table {
-    border-collapse:collapse;
-    border-spacing:0;
-}
-
-/* change border colour to suit your needs */
-hr {
-    display:block;
-    height:1px;
-    border:0;
-    border-top:1px solid #cccccc;
-    margin:1em 0;
-    padding:0;
-}
-
-input, select {
-    vertical-align:middle;
-}
-
-html {
-    font-size: 100%;
-}
-
-body {
-    font-family: Noto Sans CJK JP;
-}
-
 /*ヘッダーここから*/
 .header-logo {
-    width: 100%;
+    width: 85vw;
+    margin: 2vw auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     .logo {
-        width: 90vw;
-        margin: 0 auto;
         h1 {
             a {
                 color: #029ae2;
-                font-size: 2vw;
+                font-size: 7vw;
                 &:hover {
                     opacity: 0.7;
                 }
@@ -154,4 +47,109 @@ body {
         }
     }
 }
-
+.top-page {
+    width: 100%;
+    background-image: url(../images/backgrand.png);
+    text-align: center;
+    padding: 10vw 0 14vw 0;
+    color: #ffffff;
+    font-family: Cormorant Garamond;
+    h2 {
+        font-size: 9vw;
+        font-weight: normal;
+        line-height: 7.4vw;
+    }
+    & p {
+        font-size: 1.5vw;
+        padding-top: 3.2vw;
+        letter-spacing: 0.2vw;
+    }
+}
+.news {
+    background-color: #edfcff;
+    padding: 4vw 0;
+    .main-news {
+        width: 75vw;
+        margin: 0 auto;
+        justify-content: space-between;
+        .news-logo {
+            h3 {
+                font-family: open sans;
+                color: #029ae2;
+                font-size: 2.5vw;
+                padding: 0 0 2vw 0;
+                text-align: center;
+            }
+            a {
+                display: none;
+            }
+        }
+    }
+    .news-information {
+        display: flex;
+        justify-content: center;
+        ul {
+            list-style: none;
+            &.pc {
+                display: none;
+            }
+            li {
+                display: flex;
+                width: 60vw;
+                height: 3.5vw;
+                align-items: center;
+                font-size: 1vw;
+                border-bottom: solid 1px #30d0ed;
+                span {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 0.9vw;
+                    margin: 0 4vw;
+                    width: 7vw;
+                    height: 2.5vw;
+                    background-color: #029ae2;
+                    color: #ffffff;
+                }
+                a {
+                    display: flex;
+                    font-size: 0.7vw;
+                    color: #000;
+                    height: 3.5vw;
+                    align-items: center;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+.service {
+    text-align: center;
+    padding-top: 7vw;
+    .service-description {
+        h3 {
+            font-family: open sans;
+                color: #029ae2;
+                font-size: 2.5vw;
+                padding-bottom: 0.3vw;
+        }
+        p {
+            color: #029ae2;
+            font-size: 1vw;
+        }
+        .box {
+            width: 60vw;
+            margin: 0 auto;
+            height: 30vw;
+            justify-content: space-between;
+            .block {
+                width: 60vw;
+                background-color: #e8e8e8;
+                height: 30vw;
+                margin-top: 3vw;
+            }
+        }
+    }
+}
